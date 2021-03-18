@@ -6,6 +6,4 @@ draft: false
 tags: ["hello-world"]
 ---
 
-:100:
-
 :innocent:
