@@ -1,0 +1,87 @@
+baseURL: http://example.org/
+title: yoshikingのへや
+theme: PaperMod
+defaultContentLanguage: ja
+
+enableInlineShortcodes: true
+enableEmoji: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+    disableXML: true
+
+languages:
+    ja:
+        languageName: "Japanese"
+        weight: 1
+        homeInfoParams:
+            Title: "yoshikingのへや"
+            Content: こんちゃ〜〜
+        menu:
+            main:
+                - name: About
+                  url: about.html
+                  weight: 1
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+    en:
+        languageName: "English"
+        homeInfoParams:
+            Title: "yoshiking's room"
+            Content: Welcome~~~~
+        weight: 2
+        menu:
+            main:
+                - name: About
+                  url: about
+                  weight: 1
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production
+    description: "yoshikingのwebsiteです"
+    author: yoshiking
+
+    defaultTheme: auto
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowToc: true
+
+    assets:
+        favicon: "/favicon.ico"
+        favicon16x16: "/favicon-16x16.png"
+        favicon32x32: "/favicon-32x32.png"
+        apple_touch_icon: "/apple-touch-icon.png"
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/y05h1k1ng"
+        - name: twitter
+          url: "https://twitter.com/y05h1k1ng"
