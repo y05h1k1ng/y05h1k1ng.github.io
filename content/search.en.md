@@ -1,4 +1,0 @@
----
-title: "SearchEn"
-layout: "search"
-------
