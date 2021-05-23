@@ -3,18 +3,19 @@ title: "SECCON Beginners CTF 2021 参加記"
 description: ""
 draft: false
 math: true
-tags: [""]
+tags: ["rsa", "lll", "knapsack", "matrix"]
 date: 2021-05-23T15:10:29+09:00
 ---
 
-> :warning: Wrteupではなく"参加記"です。読み物としてご覧ください。
+> :warning: ~~Wrteupではなく"参加記"です。読み物としてご覧ください。~~
+> 書いてみたらそんなことはないかも、いやそうかも？わかんない
 
 ## はじめに
 一人チーム(`UdagawaWhiteBears`)で出て、42位2602点でした。
 内訳としては、cryptoとrevは全部解き、他ジャンルは簡単な問題をいくつか解きました。
 
 普通にwriteup書いてもな〜(なんで?)となったので、今回はどのような流れでcryptoを解いていったのか流れを書いていこうと思います。
-なんでこんなことをやりだしたかというと、[ptr-yudai](https://twitter.com/pwnyaa)が書いた[TSG LIVE ! 6 CTFのWriteup](https://ptr-yudai.hatenablog.com/entry/2021/05/17/233613)RTA記事が面白かったからです。
+なんでこんなことをやりだしたかというと、[ptr-yudai](https://twitter.com/pwnyaa)が書いた[TSG LIVE ! 6 CTFのWriteup](https://ptr-yudai.hatenablog.com/entry/2021/05/17/233613)が面白かったからです。
 あとは、数式を書くのが面倒だからです（ぶっちゃけ）。
 
 作問者writeupも出ていますし、SECCON Beginnersなので日本人の参加者は多いと思うので、詳細は他の人が書いてくれるでしょうと信じています。
@@ -592,7 +593,7 @@ b"ctf4b{0,1,10,11...It's_so_annoying.___I'm_done}"
 ## RTA: 約2h00m00s
 正確なタイムはわかりませんが、16:00にはツイートしてたので、2時間かからないぐらいでしょうか。
 
-たぶん、この記事を書いくほうが時間かかっています。
+たぶんこの記事を書くほうが時間かかっています。
 完全にImaginaryで燃え尽きていますね。
 なんでこんな記事書いてるんだろって何度も思いました。
 
