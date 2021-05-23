@@ -5,7 +5,29 @@
     <link>https://y05h1k1ng.github.io/posts/</link>
     <description>Recent content in Posts on yoshikingのへや</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 18 Mar 2021 16:50:36 +0900</lastBuildDate><atom:link href="https://y05h1k1ng.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 15:10:29 +0900</lastBuildDate><atom:link href="https://y05h1k1ng.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SECCON Beginners CTF 2021 参加記</title>
+      <link>https://y05h1k1ng.github.io/posts/seccon-beginners-2021/</link>
+      <pubDate>Sun, 23 May 2021 15:10:29 +0900</pubDate>
+      
+      <guid>https://y05h1k1ng.github.io/posts/seccon-beginners-2021/</guid>
+      <description>⚠️ Wrteupではなく&amp;quot;参加記&amp;quot;です。読み物としてご覧ください。
+ はじめに 一人チーム(UdagawaWhiteBears)で出て、42位2602点でした。 内訳としては、cryptoとrevは全部解き、他ジャンルは簡単な問題をいくつか解きました。
+普通にwriteup書いてもな〜(なんで?)となったので、今回はどのような流れでcryptoを解いていったのか流れを書いていこうと思います。 なんでこんなことをやりだしたかというと、ptr-yudaiが書いたTSG LIVE ! 6 CTFのWriteupRTA記事が面白かったからです。 あとは、数式を書くのが面倒だからです（ぶっちゃけ）。
+作問者writeupも出ていますし、SECCON Beginnersなので日本人の参加者は多いと思うので、詳細は他の人が書いてくれるでしょうと信じています。 あと、全然理解せずにこいつ解いてるんだな〜みたいな様子が伝わればいいなと思います😇
+開始前 16:00から開始だと思ってたら14:00からで、ちょっと焦った記憶があります（遅刻はしてないけど）。 pwnerと違ってcrytpoでは特に準備することがありません。 わくわくしておけば💯だと思います。
+真面目な話をすると、先述のptr-yudaiの記事ではpythonとsageをまず実行しておくと次に起動するときに早くなるらしいですが、全然知らなかったしやってないです。 まあ誤差でしょう()
+戦略的にはcrypto全部解きたいな〜ぐらいに考えていて、beginner向けなので、難しい問題から手をつけていこうと思っていました。
+はじまりはじまり〜🎉 14:00! はじまり〜〜、わくわくしすぎてワクワクさんになりました。
+早速、問題に取り掛かろうと思うのですが、ファイルのダウンロードができません😢 問題サーバーは生きてるので、ncする問題(Imaginary)があったのでこれを見てみることにしました（難しい問題からやる？そんなことはとうの昔に忘れました）。
+[crypto] Imaginary 接続した感じと問題文で、わぁ〜なんか虚数じゃん、ツラと思います。
+$ nc imaginary.quals.beginners.seccon.jp 1337 Welcome to Secret IMAGINARY NUMBER Store! 1. Save a number 2. Show numbers 3. Import numbers 4. Export numbers 0. Exit &amp;gt; べそをかいていると、ファイルのダウンロードができるようになりました。 さすがLMT、30秒もかかってないんじゃないでしょうか（適当）。
+ファイルを見ていきます。
+うえ〜〜、100行以上あるじゃん、ぴえんです。 CTFというのはフラグと呼ばれる文字列を見つけるゲームなので、とりあえずCtrl + sでflagを探してみます(emacs user)。
+def _secret(self): if &amp;#39;1337i&amp;#39; in self.</description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>https://y05h1k1ng.github.io/posts/hello_world/</link>
