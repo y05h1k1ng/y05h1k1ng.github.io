@@ -85,3 +85,7 @@ params:
           url: "https://github.com/y05h1k1ng"
         - name: twitter
           url: "https://twitter.com/y05h1k1ng"
+        - name: ctftime
+          url: "https://ctftime.org/user/52904"
+        - name: cryptohack
+          url: "https://cryptohack.org/user/yoshiking/"
