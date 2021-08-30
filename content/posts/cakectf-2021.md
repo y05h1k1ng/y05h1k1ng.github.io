@@ -1,7 +1,7 @@
 ---
 title: "CakeCTF 2021 振り返り"
 description: ""
-draft: true
+draft: false
 math: false
 tags: [""]
 date: 2021-08-29T15:10:20+09:00
