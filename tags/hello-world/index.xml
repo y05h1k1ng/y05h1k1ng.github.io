@@ -12,7 +12,9 @@
       <pubDate>Thu, 18 Mar 2021 16:50:36 +0900</pubDate>
       
       <guid>https://y05h1k1ng.github.io/posts/hello_world/</guid>
-      <description>😇</description>
+      <description>はじめまして。
+以前はhatena blogに記事の投稿をしていましたが、github pageを使ってみることにしました。 理由としては、hatena blogでのtex記法があまり書きやすくなかったとか、go言語触り始めたぐらいでhugoの存在を知ってなんとなく、というただの好奇心です。
+今使用しているテーマ(PaperMod)はダークモード対応でさらに英語と日本語で記事を分けられて気に入っています。 普段英語で書くことないんですけどね…</description>
     </item>
     
   </channel>
