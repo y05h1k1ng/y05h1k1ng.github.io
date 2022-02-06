@@ -6,6 +6,7 @@ draft: false
 tags: ["hello-world"]
 ---
 
-:100:
+Hi, world.
 
-:innocent:
+This is previous blog(almost japanese tho...).
+- https://yoshiking.hatenablog.jp/
