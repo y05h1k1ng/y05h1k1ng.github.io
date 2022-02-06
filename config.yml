@@ -38,7 +38,7 @@ languages:
         languageName: "English"
         homeInfoParams:
             Title: "yoshiking's room"
-            Content: Welcome~~~~
+            Content: Welcoooooome
         weight: 2
         menu:
             main:
@@ -89,3 +89,5 @@ params:
           url: "https://ctftime.org/user/52904"
         - name: cryptohack
           url: "https://cryptohack.org/user/yoshiking/"
+        - name: rss
+          url: "http://localhost:1313/index.xml"
