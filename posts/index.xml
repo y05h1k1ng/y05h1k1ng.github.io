@@ -14,8 +14,8 @@
       <guid>https://y05h1k1ng.github.io/posts/cakectf-2021/</guid>
       <description>今年もtheoldmoon0602とptr-yudaiと僕の3人でCTFを開催しました。 前年度まではInterKosenCTFという名前で開催していたのですが、今年は名前を変えての開催となりました。
 他の2人の記事
- theoldmoon0602: https://furutsuki.hatenablog.com/entry/2021/08/29/224254 ptr-yudai: https://ptr-yudai.hatenablog.com/entry/2021/08/30/000015  問題リポジトリ
- https://github.com/theoremoon/cakectf-2021-public  作成した問題について [rev] Hash Browns 単純なx64elf解析問題です。 関数fでなにかやってますが、見る人がみるとxgcd()に見えるのかな？と思います。わからなくても動的解析をしたり、デコンパイルしたコードを実装すればなんとかなると思います。 ハッシュが含まれる2つの配列のindexがそれぞれわかれば、ローカルでハッシュ値と合う文字を1文字づつ探索すればフラグが入手できます。 関数fの理解がからっきしだめでもフラグの偶数indexは復元できます。 そこから奇数indexの文字をエスパーするみたいなことができ&amp;hellip;ないです（たぶん）。 フラグを入手された方はわかると思うんですが、フザけたフラグになってるのでエスパーは厳しいと思います。
+theoldmoon0602: https://furutsuki.hatenablog.com/entry/2021/08/29/224254 ptr-yudai: https://ptr-yudai.hatenablog.com/entry/2021/08/30/000015 問題リポジトリ
+https://github.com/theoremoon/cakectf-2021-public 作成した問題について [rev] Hash Browns 単純なx64elf解析問題です。 関数fでなにかやってますが、見る人がみるとxgcd()に見えるのかな？と思います。わからなくても動的解析をしたり、デコンパイルしたコードを実装すればなんとかなると思います。 ハッシュが含まれる2つの配列のindexがそれぞれわかれば、ローカルでハッシュ値と合う文字を1文字づつ探索すればフラグが入手できます。 関数fの理解がからっきしだめでもフラグの偶数indexは復元できます。 そこから奇数indexの文字をエスパーするみたいなことができ&amp;hellip;ないです（たぶん）。 フラグを入手された方はわかると思うんですが、フザけたフラグになってるのでエスパーは厳しいと思います。
 reversingの作問は初めてだったのでreversingの問題としての面白さがわからず不安でした。 Surveyを見た感じそれなりに楽しんでもらえたようでほっとしています。 ちなみに問題名のHash Brownsは去年のこのCTF(旧InterKosenCTF)でボツ問になった問題名から取ってきてます。
 writeup: https://hackmd.io/@ptr-yudai/rJWHh_SwO
 [crypto] Together as one 基礎的な初等整数論の知識で解ける問題です。 この問題はzer0pts CTF 2021を目標に作ってたけど、納得の行くものになったのが開催前日とかでこちらで出題しました。 当初はmediumぐらいで出してたけど、謎のパワーでlunaticになりました。 なんか毎年難易度推定バグってるけど、dynamic scoringだしまぁいっか！（おっとぼけ）という気持ちが自分の中である気がする。 よくないですね。 善処します。
@@ -34,7 +34,7 @@ writeup: https://hackmd.io/@yoshiking/rJ5suNPXO
       
       <guid>https://y05h1k1ng.github.io/posts/seccon-beginners-2021/</guid>
       <description>⚠️ Wrteupではなく&amp;quot;参加記&amp;quot;です。読み物としてご覧ください。 書いてみたらそんなことはないかも、いやそうかも？わかんない
- はじめに 一人チーム(UdagawaWhiteBears)で出て、42位2602点でした。 内訳としては、cryptoとrevは全部解き、他ジャンルは簡単な問題をいくつか解きました。
+はじめに 一人チーム(UdagawaWhiteBears)で出て、42位2602点でした。 内訳としては、cryptoとrevは全部解き、他ジャンルは簡単な問題をいくつか解きました。
 普通にwriteup書いてもな〜(なんで?)となったので、今回はどのような流れでcryptoを解いていったのか流れを書いていこうと思います。 なんでこんなことをやりだしたかというと、ptr-yudaiが書いたTSG LIVE ! 6 CTFのWriteupが面白かったからです。 あとは、数式を書くのが面倒だからです（ぶっちゃけ）。
 作問者writeupも出ていますし、SECCON Beginnersなので日本人の参加者は多いと思うので、詳細は他の人が書いてくれるでしょうと信じています。 あと、全然理解せずにこいつ解いてるんだな〜みたいな様子が伝わればいいなと思います😇
 開始前 16:00から開始だと思ってたら14:00からで、ちょっと焦った記憶があります（遅刻はしてないけど）。 pwnerと違ってcrytpoでは特に準備することがありません。 わくわくしておけば💯だと思います。
