@@ -2,7 +2,7 @@ baseURL: https://y05h1k1ng.github.io/
 title: yoshikingのへや
 theme: PaperMod
 defaultContentLanguage: ja
-googleAnalytics: "G-C073P75B0D"
+googleAnalytics: "UA-151020420-2"
 
 enableInlineShortcodes: true
 enableEmoji: true
