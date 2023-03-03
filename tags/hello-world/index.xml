@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>hello-world on yoshikingのへや</title>
     <link>https://y05h1k1ng.github.io/tags/hello-world/</link>
@@ -12,9 +12,7 @@
       <pubDate>Thu, 18 Mar 2021 16:50:36 +0900</pubDate>
       
       <guid>https://y05h1k1ng.github.io/posts/hello_world/</guid>
-      <description>はじめまして。
-以前はhatena blogに記事の投稿をしていましたが、github pageを使ってみることにしました。 理由としては、hatena blogでのtex記法があまり書きやすくなかったとか、go言語触り始めたぐらいでhugoの存在を知ってなんとなく、というただの好奇心です。
-今使用しているテーマ(PaperMod)はダークモード対応でさらに英語と日本語で記事を分けられて気に入っています。 普段英語で書くことないんですけどね…</description>
+      <description>First Post</description>
     </item>
     
   </channel>
