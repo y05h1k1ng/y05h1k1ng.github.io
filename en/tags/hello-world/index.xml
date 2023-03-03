@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>hello-world on yoshikingのへや</title>
     <link>https://y05h1k1ng.github.io/en/tags/hello-world/</link>
@@ -12,9 +12,7 @@
       <pubDate>Thu, 18 Mar 2021 16:50:36 +0900</pubDate>
       
       <guid>https://y05h1k1ng.github.io/en/posts/hello_world/</guid>
-      <description>Hi, world.
-This is previous blog(almost japanese tho&amp;hellip;).
-https://yoshiking.hatenablog.jp/ </description>
+      <description>First Post</description>
     </item>
     
   </channel>

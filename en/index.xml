@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>yoshikingのへや</title>
     <link>https://y05h1k1ng.github.io/en/</link>
@@ -12,9 +12,7 @@
       <pubDate>Thu, 18 Mar 2021 16:50:36 +0900</pubDate>
       
       <guid>https://y05h1k1ng.github.io/en/posts/hello_world/</guid>
-      <description>Hi, world.
-This is previous blog(almost japanese tho&amp;hellip;).
-https://yoshiking.hatenablog.jp/ </description>
+      <description>First Post</description>
     </item>
     
     <item>
@@ -27,23 +25,7 @@ https://yoshiking.hatenablog.jp/ </description>
 [crypto] ochazuke | InterKosenCTF 2020 Challenge: https://github.com/theoremoon/InterKosenCTF2020-challenges/tree/master/crypto/ochazuke/distfiles [misc] No pressure | InterKosenCTF 2020 Challenge: https://github.com/theoremoon/InterKosenCTF2020-challenges/tree/master/misc/no_pressure/distfiles [crypto] dirty laundry | zer0ptsCTF 2020 Challenge: https://gitlab.com/zer0pts/zer0pts-ctf-2020/-/tree/master/dirty%20laundry/distfiles Official Writeup: https://hackmd.io/@yoshiking/H1cUTRfSU CTFtime Writeup: https://ctftime.org/task/10647 [crypto] pascal homomorphicity | InterKosenCTF 2019 Challenge: https://github.com/theoremoon/InterKosenCTF2019-challenges-public/tree/master/pascal_homomorphicity/distfiles Official Writeup: https://hackmd.io/@ptr-yudai/HyxEIwTGr [forensics] Hugtto! | InterKosenCTF 2019 Challenge: https://github.com/theoremoon/InterKosenCTF2019-challenges-public/tree/master/hugtto!/distarchive Official Writeup: https://hackmd.io/@ptr-yudai/SyU0sifXH Links Github: @y05h1k1ng Twitter: @y05h1k1ng Hatena Blog: https://yoshiking.</description>
     </item>
     
-    <item>
-      <title>Archives</title>
-      <link>https://y05h1k1ng.github.io/en/archives/</link>
-      <pubDate>Thu, 18 Mar 2021 16:06:04 +0900</pubDate>
-      
-      <guid>https://y05h1k1ng.github.io/en/archives/</guid>
-      <description>archives</description>
-    </item>
     
-    <item>
-      <title>SearchEn</title>
-      <link>https://y05h1k1ng.github.io/en/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://y05h1k1ng.github.io/en/search/</guid>
-      <description> </description>
-    </item>
     
   </channel>
 </rss>

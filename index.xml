@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>yoshikingのへや</title>
     <link>https://y05h1k1ng.github.io/</link>
     <description>Recent content on yoshikingのへや</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 29 Aug 2021 15:10:20 +0900</lastBuildDate><atom:link href="https://y05h1k1ng.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 22:02:51 +0900</lastBuildDate><atom:link href="https://y05h1k1ng.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Cybersecurity Camp 2023 Singapore 参加記</title>
+      <link>https://y05h1k1ng.github.io/posts/gcc2023-singapore/</link>
+      <pubDate>Thu, 23 Feb 2023 22:02:51 +0900</pubDate>
+      
+      <guid>https://y05h1k1ng.github.io/posts/gcc2023-singapore/</guid>
+      <description>はじめに Global Cybersecurity Camp(GCC) 2023 Singaporeが2月13~17日の間に開催されていました。 GCCは人材育成とコミュニティの形成を目的として開催されているイベントです。 GCCについての詳細は公式ページをご覧ください。 今年はなんと2020年ぶりのオンサイト開催なので、選考を通過すると無料で海外に行ける太っ腹イベントになっています。
+今回、選考通過し、イベントを終えて来たので、参加記として後世に残しておこうと思います。
+他の参加者の記事 watasukeさん（弊チームのモデレータさん、お世話になりました🙇） GCC 2023 Singaporeにチューターとして参加しました yu1hpaくん（記事👇でも言及されていますがお話できてとても楽しかったです🙌） GCC 2023 in Singapore 参加記 セキュアスカイ・テクノロジーさん（マンゴスチンをおすそ分けしていただきました。ありがとうございます。美味しかったです😋） GCC 2023 Singapore スポンサー視点参加レポ 参加前 GCCがオンサイトで開催されることを知って応募するか〜と思っていました。 個人情報多めなので応募書類を晒すことはしないですが、研究とかインターンの経験を書いて課題を解いたという感じです。 応募締め切り付近は研究タスクに追われていてかなり参っていたのですが、よく出したと思います1。えらいぞ、自分 😤
+正直受かるとは思っておらず2、選考通過メールが届いたときはびっくりしました3。 受かってからは事前課題（といっても大体は環境構築）をして気づいたら出発前日でした。
+参加中 一部時間が変更になった講義もありますが、大まかなスケジュールはこちらで公開されています。 移動日と講義に分けて簡単に振り返っていきます。
+day0（出国&amp;amp;アイスブレイキングディナー） フライトが羽田発だったのですが、朝が異常に早くつらかったです。 あと早朝の電車なのに死ぬほど人が多かったです。東京怖いですね。 シンガポールまでは7時間ぐらいのフライトでした。
+当然ですがシンガポールに到着してからは気温が高いので、蒸し暑さが新鮮でした。 ホテルにチェックインするぐらいから、英語でサバイブする必要があり、ドキドキしていました。 また、受講生は国籍が異なる2~3人で一部屋となっており、僕の場合は2人部屋だったのでその点もドキドキしていました。 部屋にすでにいるのかな？と思っていたけどまだ到着していないようでした。
+アイスブレイキングディナーは日本チームが到着する頃にはすでに始まっており、ご飯も残り少なく悲しかったです。 とりあえずお酒を飲んで、いろいろな人と話していました。 このときに同じグループメンバーと会えたことや、ルームメイト、お酒好きの子4と話せたのは運が良かったです。
+day1~5（講義） 翌日からは5日間講義メインでした。 講義内容についてはあまり言及できない5のですが、簡単に各講義の感想と講義中の生活についてまとめます。
+Introduction to Web Pentesting(day1) 一番最初の講義。 Webの基礎からBurp Suiteの使い方、OWASP Juice Shopを使ったCTF形式の実践までを学びました。 CTFと聞くとワクワクする人間なんですが、例にもれず楽しかったです。 OWASP Juice Shopは今まで触ったことがなかったのですが、recon要素が結構あって大変でした。 実際のpentestってCTFと違ってrecon要素があるのは当然なのですが、競技+時間制限があると焦ってしまう。
+Hackathon of Powershell Malware Detection Engine(day1, 3) Powershellマルウェアの利点や性質を学んだ後、Powershellマルウェアの検知を行うスクリプトを作成する講義でした。 この講義はグループ内でアイデアを出し実装するので、ディスカッションをするのですが、英語力がなく方向性について議論ができなかったのが悔やまれます。 自分の実力不足によって十分に参加できなかったのは残念ですが、とてもクリエイティブな講義で楽しかったです。 結果としては弊チームは3位でした、チームメンバーがとても優秀でしたね👏。</description>
+    </item>
+    
     <item>
       <title>CakeCTF 2021 振り返り</title>
       <link>https://y05h1k1ng.github.io/posts/cakectf-2021/</link>
@@ -55,9 +74,7 @@ def _secret(self): if &amp;#39;1337i&amp;#39; in self.</description>
       <pubDate>Thu, 18 Mar 2021 16:50:36 +0900</pubDate>
       
       <guid>https://y05h1k1ng.github.io/posts/hello_world/</guid>
-      <description>はじめまして。
-以前はhatena blogに記事の投稿をしていましたが、github pageを使ってみることにしました。 理由としては、hatena blogでのtex記法があまり書きやすくなかったとか、go言語触り始めたぐらいでhugoの存在を知ってなんとなく、というただの好奇心です。
-今使用しているテーマ(PaperMod)はダークモード対応でさらに英語と日本語で記事を分けられて気に入っています。 普段英語で書くことないんですけどね…</description>
+      <description>First Post</description>
     </item>
     
     <item>
@@ -70,23 +87,7 @@ def _secret(self): if &amp;#39;1337i&amp;#39; in self.</description>
 [crypto] ochazuke | InterKosenCTF 2020 問題ファイル: https://github.com/theoremoon/InterKosenCTF2020-challenges/tree/master/crypto/ochazuke/distfiles [misc] No pressure | InterKosenCTF 2020 問題ファイル: https://github.com/theoremoon/InterKosenCTF2020-challenges/tree/master/misc/no_pressure/distfiles [crypto] dirty laundry | zer0ptsCTF 2020 問題ファイル: https://gitlab.com/zer0pts/zer0pts-ctf-2020/-/tree/master/dirty%20laundry/distfiles 公式Writeup: https://hackmd.io/@yoshiking/H1cUTRfSU CTFtime Writeup: https://ctftime.org/task/10647 [crypto] pascal homomorphicity | InterKosenCTF 2019 問題ファイル: https://github.com/theoremoon/InterKosenCTF2019-challenges-public/tree/master/pascal_homomorphicity/distfiles 公式Writeup: https://hackmd.io/@ptr-yudai/HyxEIwTGr [forensics] Hugtto! | InterKosenCTF 2019 問題ファイル: https://github.com/theoremoon/InterKosenCTF2019-challenges-public/tree/master/hugtto!/distarchive 公式Writeup: https://hackmd.io/@ptr-yudai/SyU0sifXH Links Github: @y05h1k1ng Twitter: @y05h1k1ng Hatena Blog: https://yoshiking.hatenablog.jp/ CTFtime: yoshiking </description>
     </item>
     
-    <item>
-      <title>Archives</title>
-      <link>https://y05h1k1ng.github.io/archives/</link>
-      <pubDate>Thu, 18 Mar 2021 16:06:04 +0900</pubDate>
-      
-      <guid>https://y05h1k1ng.github.io/archives/</guid>
-      <description>archives</description>
-    </item>
     
-    <item>
-      <title>Search</title>
-      <link>https://y05h1k1ng.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://y05h1k1ng.github.io/search/</guid>
-      <description> </description>
-    </item>
     
   </channel>
 </rss>
